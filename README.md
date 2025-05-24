@@ -11,7 +11,7 @@ The solution of gkdx2 Team for the [The 3rd Workshop & Challenge on Micro-gestur
 - [📦 Installation](#-installation)
 - [📂 Data Preparation](#-data-preparation)
   - [🔽 Download Our Pre-processed Dataset (Recommended)](#-download-our-pre-processed-dataset-recommend)
-  - [⚙️ Process Dataset by Yourself](#-process-dataset-by-yourself)
+  - [⚙️ Process Dataset by Yourself](#%EF%B8%8F-process-dataset-by-yourself)
     - [Download MiGA'25 Official Dataset (Track 1)](#download-miga25-official-dataset-track-1)
     - [Generate Skeleton Data](#generate-skeleton-data)
     - [Generate RGB Videos](#generate-rgb-videos)
