@@ -20,9 +20,9 @@ We will provide the full list of authors in the technical report.
     - [2.2.4 Generate Taylor Videos](#224-generate-taylor-videos)
     - [2.2.5 Generate Optical Flow Videos](#225-generate-optical-flow-videos)
     - [2.2.6 Generate Depth Videos](#226-generate-depth-videos)
-- [🏋️‍♂️ 3. Training & Testing & Ensemble](#%EF%B8%8F%EF%B8%8F-3-training--testing--ensemble)
-  - [3.1 Training & Testing - PoseConv3D](#31-poseconv3d)
-  - [3.2 Training & Testing - VideoSwinT](#32-videoswint)
+- [🏋️‍♂️ 3. Training & Testing](#%EF%B8%8F%EF%B8%8F-3-training--testing)
+  - [3.1 PoseConv3D](#31-poseconv3d)
+  - [3.2 VideoSwinT](#32-videoswint)
 - [💥 4. Ensemble (Multi-modal Fusion)](#-4-ensemble-multi-modal-fusion)
 - [🙏 5. Acknowledgement](#-5-acknowledgement)
 - [📧 6. Contact](#-6-contact)
@@ -220,7 +220,7 @@ python3 run_dir.py \
 
 
 
-## 🏋️‍♂️ 3. Training & Testing & Ensemble
+## 🏋️‍♂️ 3. Training & Testing
 
 ✨ **Pre-trained models are available for download [here](https://drive.google.com/drive/folders/1roxllRgFxS6Iz6osShYij5G8miu924DL?usp=drive_link).** 📥🎯
 
