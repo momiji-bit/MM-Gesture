@@ -2,7 +2,7 @@
 
 The solution of `gkdx2` Team for `Track 1` of the [The 3rd Workshop & Challenge on Micro-gesture Analysis for Hidden Emotion Understanding (MiGA)](https://cv-ac.github.io/MiGA2025/). 
 
-Our team is named `HFUT-VUT`. The primary contacts are Dr. Kun Li (kunli.hfut@gmail.com) and Jihao Gu (geogu2000@gmail.com). 
+Our team is named `HFUT-VUT`. The primary contacts are Dr. Kun Li (kunli.hfut@gmail.com) and Jihao Gu (geogu2000@outlook.com). 
 
 We will provide the full list of authors in the technical report.
 
@@ -10,23 +10,22 @@ We will provide the full list of authors in the technical report.
 
 ## 📚 0. Table of Contents
 
-- [📦 Installation](#-installation)
-- [📂 Data Preparation](#-data-preparation)
-  - [🔽 Download Our Pre-processed Dataset (Recommended)](#-download-our-pre-processed-dataset-recommend)
-  - [⚙️ Process Dataset by Yourself](#%EF%B8%8F-process-dataset-by-yourself)
-    - [Download MiGA'25 Official Dataset (Track 1)](#download-miga25-official-dataset-track-1)
-    - [Generate Skeleton Data](#generate-skeleton-data)
-    - [Generate RGB Videos](#generate-rgb-videos)
-    - [Generate Taylor Videos](#generate-taylor-videos)
-    - [Generate Optical Flow Videos](#generate-optical-flow-videos)
-    - [Generate Depth Videos](#generate-depth-videos)
-- [🏋️‍♂️ Training & Testing & Ensemble](#%EF%B8%8F%EF%B8%8F-training--testing--ensemble)
-  - [Training & Testing - PoseConv3D](#poseconv3d)
-  - [Training & Testing - VideoSwinT](#videoswint)
-  - [Ensemble (Multi-modal Fusion)](#ensemble-multi-modal-fusion)
-- [📝 Citation](#-citation)
-- [🙏 Acknowledgement](#-acknowledgement)
-- [📧 Contact](#-contact)
+- [📦 1. Installation](#-1-installation)
+- [📂 2. Data preparation](#-2-data-preparation)
+  - [🔽 2.1 Download our pre-processed dataset (Recommend)](#-21-download-our-pre-processed-dataset-recommend)
+  - [⚙️ 2.2 Process dataset by yourself [Optional]](#%EF%B8%8F-22-process-dataset-by-yourself-optional)
+    - [2.2.1 Download MiGA'25 Official Dataset (Track 1)](#221-download-miga25-official-dataset-track-1)
+    - [2.2.2 Generate Skeleton Data](#222-generate-skeleton-data)
+    - [2.2.3 Generate RGB Videos](#223-generate-rgb-videos)
+    - [2.2.4 Generate Taylor Videos](#224-generate-taylor-videos)
+    - [2.2.5 Generate Optical Flow Videos](#225-generate-optical-flow-videos)
+    - [2.2.6 Generate Depth Videos](#226-generate-depth-videos)
+- [🏋️‍♂️ 3. Training & Testing & Ensemble](#%EF%B8%8F%EF%B8%8F-3-training--testing--ensemble)
+  - [3.1 Training & Testing - PoseConv3D](#31-poseconv3d)
+  - [3.2 Training & Testing - VideoSwinT](#32-videoswint)
+- [💥 4. Ensemble (Multi-modal Fusion)](#-4-ensemble-multi-modal-fusion)
+- [🙏 5. Acknowledgement](#-5-acknowledgement)
+- [📧 6. Contact](#-6-contact)
 
 
 
@@ -259,7 +258,7 @@ cd mmaction2
 
 Then, run the code in `mmaction2/RUN.ipynb` for training and testing.
 
-## 💥4. Ensemble (Multi-modal Fusion)
+## 💥 4. Ensemble (Multi-modal Fusion)
 
 We provide a script for combining **six modalities** (*Joint, Limb, RGB, Taylor, Optical Flow, Depth*) to leverage their complementary strengths and improve accuracy:
 
