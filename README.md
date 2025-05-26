@@ -1,12 +1,14 @@
 # MM-Gesture: Towards Precise Micro-Gesture Recognition through Multimodal Fusion
 
-The solution of gkdx2 Team for the [The 3rd Workshop & Challenge on Micro-gesture Analysis for Hidden Emotion Understanding (MiGA)](https://cv-ac.github.io/MiGA2025/), please refer to the [arxiv paper]() for more details. 
+The solution of `gkdx2` Team for `Track 1` of the [The 3rd Workshop & Challenge on Micro-gesture Analysis for Hidden Emotion Understanding (MiGA)](https://cv-ac.github.io/MiGA2025/). 
+
+Our team is named `HFUT-VUT`. The primary contacts are Dr. Kun Li (kunli.hfut@gmail.com) and Jihao Gu (geogu2000@gmail.com). 
+
+We will provide the full list of authors in the technical report.
 
 🎉 The generated `ensemble/prediction.zip`  represents our **final submission**, achieving an impressive 🏆 **Top-1 Accuracy of 73.213%**! 🌟
 
-
-
-## 📚 Table of Contents
+## 📚 0. Table of Contents
 
 - [📦 Installation](#-installation)
 - [📂 Data Preparation](#-data-preparation)
@@ -28,7 +30,7 @@ The solution of gkdx2 Team for the [The 3rd Workshop & Challenge on Micro-gestur
 
 
 
-## 📦 Installation
+## 📦 1. Installation
 
 ```bash
 git clone https://github.com/momiji-bit/MM-Gesture
@@ -36,22 +38,18 @@ cd MM-Gesture
 
 ```
 
+## 📂 2. Data preparation
 
+### 🔽 2.1 Download our pre-processed dataset (Recommend)
 
-## 📂 Data preparation
+🔐 To facilitate your access to our preprocessed video data, you can download it directly from [HuggingFace](https://huggingface.co/datasets/Geo2425/iMiGUE_SRTFD). 
 
-### 🔽 Download our pre-processed dataset (Recommend)
+🔐 To comply with the dataset’s usage policy, we have restricted access to the processed files. Please request access through HuggingFace, and we will approve it promptly.
 
-```bash
-cd dataset
-git clone https://huggingface.co/datasets/Geo2425/iMiGUE_SRTFD
-
-```
 
 ```bash
 # If you are in China, please use hfd to accelerate the download.
 cd dataset
-
 sudo apt update
 sudo apt install aria2
 
@@ -60,6 +58,10 @@ chmod a+x hfd.sh
 export HF_ENDPOINT=https://hf-mirror.com
 ./hfd.sh Geo2425/iMiGUE_SRTFD --dataset
 
+# If you are not in China, just download the pre-processed dataset.
+cd dataset 
+pip install huggingface_hub
+huggingface-cli download Geo2425/iMiGUE_SRTFD --type dataset
 ```
 
 ```bash
@@ -79,7 +81,9 @@ cd ..
 
 ```
 
-### ⚙️ Process dataset by yourself
+### ⚙️ 2.2 Process dataset by yourself [Optional]
+
+If you've already downloaded the preprocessed data, feel free to skip this step.
 
 ```bash
 cd dataset
@@ -87,7 +91,7 @@ mkdir Skeleton RGB Taylor Flow Depth MiGA
 
 ```
 
-#### Download MiGA'25 Official Dataset (Track 1)
+#### 2.2.1 Download MiGA'25 Official Dataset (Track 1) 
 
 Download here: [Kaggle MiGA Challenge Track 1](https://www.kaggle.com/competitions/the-3rd-mi-ga-ijcai-challenge-track-1/data)
 
@@ -118,7 +122,7 @@ unzip imigue_rgb_phase2.zip
 
 ```
 
-#### Generate Skeleton Data
+#### 2.2.2 Generate Skeleton Data
 
 To generate the skeleton data, simply run the code provided in the Jupyter notebook:
 
@@ -126,7 +130,7 @@ To generate the skeleton data, simply run the code provided in the Jupyter noteb
 Open and execute `dataset/tools/processing_Skeleton.ipynb`.
 ```
 
-#### Generate RGB Videos
+#### 2.2.3 Generate RGB Videos
 
 For RGB video generation, use the provided Jupyter notebook:
 
@@ -134,7 +138,7 @@ For RGB video generation, use the provided Jupyter notebook:
 Open and execute `dataset/tools/processing_RGB.ipynb`.
 ```
 
-#### Generate Taylor Videos
+#### 2.2.4 Generate Taylor Videos
 
 To generate Taylor-encoded videos:
 
@@ -146,7 +150,7 @@ python taylor.py ../RGB/val ../Taylor/val
 python taylor.py ../RGB/test ../Taylor/test
 ```
 
-#### Generate Optical Flow Videos
+#### 2.2.5 Generate Optical Flow Videos
 
 We use [memflow](https://github.com/memflow/memflow) for optical flow generation.
 
@@ -179,7 +183,7 @@ python inference_mp4.py \
   --output_dir ../../MiGA/Flow/test
 ```
 
-#### Generate Depth Videos
+#### 2.2.6 Generate Depth Videos
 
 We use [Video-Depth-Anything](https://github.com/DepthAnything/Video-Depth-Anything) to generate depth videos.
 
@@ -217,7 +221,7 @@ python3 run_dir.py \
 
 
 
-## 🏋️‍♂️ Training & Testing & Ensemble
+## 🏋️‍♂️ 3. Training & Testing & Ensemble
 
 ✨ **Pre-trained models are available for download [here](https://drive.google.com/drive/folders/1roxllRgFxS6Iz6osShYij5G8miu924DL?usp=drive_link).** 📥🎯
 
@@ -233,7 +237,7 @@ python3 run_dir.py \
 | VideoSwinT (Base)            | Optical Flow | [Download](https://drive.google.com/drive/folders/1ePhPSeNzkLDoNZqm2faTVyxJtMyQlYbR?usp=drive_link) |
 | VideoSwinT (Base/Small)      | Depth        | [Download](https://drive.google.com/drive/folders/1Va6CLjkO1WC6O_Rnt2Y-Ub0-74FesNG8?usp=drive_link) |
 
-### PoseConv3D
+### 3.1 PoseConv3D
 
 ```bash
 # Install dependencies
@@ -244,7 +248,7 @@ cd pyskl
 
 Then, run the code in `pyskl/RUN.ipynb` for training and testing.
 
-### VideoSwinT
+### 3.2 VideoSwinT
 
 ```bash
 # Install dependencies
@@ -255,29 +259,18 @@ cd mmaction2
 
 Then, run the code in `mmaction2/RUN.ipynb` for training and testing.
 
-### Ensemble (Multi-modal Fusion)
+## 💥4. Ensemble (Multi-modal Fusion)
 
 We provide a script for combining **six modalities** (*Joint, Limb, RGB, Taylor, Optical Flow, Depth*) to leverage their complementary strengths and improve accuracy:
 
 - Run `ensemble/ensemble.py` to generate the final competition results.
-- Alternatively, use `ensemble/[Dev]ensemble.ipynb` to explore how different modalities complement each other.
 
-
-
-## 📝 Citation
-
-If you use this code in your research, please consider citing:
-```
-
-```
-
-
-## 🙏 Acknowledgement
+## 🙏 5. Acknowledgement
 
 This code began with [PYSKL](https://github.com/kennymckormick/pyskl/tree/main) and [mmaction2](https://github.com/open-mmlab/mmaction2) toolbox. We thank the developers for doing most of the heavy-lifting.
 
 
 
-## 📧 Contact
+## 📧 6. Contact
 
-For any questions, feel free to contact: kunli.hfut@gmail.com
+For any questions, feel free to contact: Dr. Kun Li (kunli.hfut@gmail.com) and Jihao Gu (geogu2000@gmail.com).
