@@ -2,7 +2,7 @@
 
 The solution of `gkdx2` Team for `Track 1` of the [The 3rd Workshop & Challenge on Micro-gesture Analysis for Hidden Emotion Understanding (MiGA)](https://cv-ac.github.io/MiGA2025/). 
 
-Our team is named `HFUT-VUT`. The primary contacts are Dr. Kun Li (kunli.hfut@gmail.com) and Jihao Gu (geogu2000@outlook.com). 
+Our team is named `HFUT-VUT`. The primary contacts are Dr. Kun Li (kunli.hfut@gmail.com) and Mr. Jihao Gu (geogu2000@outlook.com). 
 
 We will provide the full list of authors in the technical report.
 
@@ -272,4 +272,4 @@ This code began with [PYSKL](https://github.com/kennymckormick/pyskl/tree/main) 
 
 ## 📧 6. Contact
 
-For any questions, feel free to contact: Dr. Kun Li (kunli.hfut@gmail.com) and Jihao Gu (geogu2000@gmail.com).
+For any questions, feel free to contact: Dr. Kun Li (kunli.hfut@gmail.com) and Mr. Jihao Gu (geogu2000@outlook.com).
