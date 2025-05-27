@@ -60,7 +60,8 @@ export HF_ENDPOINT=https://hf-mirror.com
 # If you are not in China, just download the pre-processed dataset.
 cd dataset 
 pip install huggingface_hub
-huggingface-cli download Geo2425/iMiGUE_SRTFD --type dataset
+huggingface-cli login
+huggingface-cli download Geo2425/iMiGUE_SRTFD --repo-type dataset
 ```
 
 ```bash
