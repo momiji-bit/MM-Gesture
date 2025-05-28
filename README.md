@@ -8,6 +8,8 @@ We will provide the full list of authors in the technical report.
 
 🎉 The generated `ensemble/prediction.zip`  represents our **final submission**, achieving an impressive 🏆 **Top-1 Accuracy of 73.213%**! 🌟
 
+![framework](https://github.com/momiji-bit/MM-Gesture/tree/main/assets/framework.png)
+
 ## 📚 0. Table of Contents
 
 - [📦 1. Installation](#-1-installation)
