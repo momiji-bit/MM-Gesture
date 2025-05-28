@@ -63,7 +63,8 @@ export HF_ENDPOINT=https://hf-mirror.com
 cd dataset 
 pip install huggingface_hub
 huggingface-cli login
-huggingface-cli download Geo2425/iMiGUE_SRTFD --repo-type dataset
+mkdir -p ./iMiGUE_SRTFD
+huggingface-cli download Geo2425/iMiGUE_SRTFD --repo-type dataset --local-dir ./iMiGUE_SRTFD
 ```
 
 ```bash
