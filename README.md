@@ -1,5 +1,9 @@
 # MM-Gesture: Towards Precise Micro-Gesture Recognition through Multimodal Fusion
 
+<p align="center">
+  <a href="https://huggingface.co/datasets/Geo2425/iMiGUE_SRTFD" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-orange"></a>
+</p>
+
 The solution of `gkdx2` Team for `Track 1` of the [The 3rd Workshop & Challenge on Micro-gesture Analysis for Hidden Emotion Understanding (MiGA)](https://cv-ac.github.io/MiGA2025/). 
 
 Our team is named `HFUT-VUT`. The primary contacts are Dr. Kun Li (kunli.hfut@gmail.com) and Mr. Jihao Gu (geogu2000@outlook.com). 
