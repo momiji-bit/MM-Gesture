@@ -282,4 +282,4 @@ This code began with [PYSKL](https://github.com/kennymckormick/pyskl/tree/main) 
 
 ## 📧 6. Contact
 
-For any questions, feel free to contact: Dr. Kun Li (kunli.hfut@gmail.com) and Mr. Jihao Gu (geogu2000@outlook.com).
+For any questions, feel free to contact: Dr. Kun Li (kunli.hfut@gmail.com) and Mr. Jihao Gu (jihao.gu.23@ucl.ac.uk).
