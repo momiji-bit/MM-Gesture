@@ -1,7 +1,7 @@
 # MM-Gesture: Towards Precise Micro-Gesture Recognition through Multimodal Fusion
 
 <p align="center">
-  <a href="https://arxiv.org/abs/" target="_blank"><img src="https://img.shields.io/badge/arXiv-Upcoming-red?logo=arxiv"></a>
+  <a href="https://arxiv.org/abs/2507.08344" target="_blank"><img src="https://img.shields.io/badge/arXiv-Upcoming-red?logo=arxiv"></a>
   <a href="https://huggingface.co/datasets/Geo2425/iMiGUE_SRTFD" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-orange"></a>
   <a href="https://drive.google.com/drive/folders/1roxllRgFxS6Iz6osShYij5G8miu924DL?usp=drive_link" target="_blank"><img src="https://img.shields.io/badge/Google%20Drive-Model-blue?logo=google-drive"></a>
 </p>
