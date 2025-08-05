@@ -1,14 +1,17 @@
 <div align="center">
 <h1>MM-Gesture: Towards Precise Micro-Gesture Recognition through Multimodal Fusion</h1>
 
-[**Jihao Gu**](https://scholar.google.com/citations?hl=en&user=fSWwq3AAAAAJ)<sup>1</sup>, [**Fei Wang**](https://scholar.google.com/citations?user=sdqv6pQAAAAJ)<sup>2,5</sup>, [**Kun Li**](https://scholar.google.com/citations?user=UQ_bInoAAAAJ)<sup>3,\*</sup>, [**Yanyan Wei**](https://scholar.google.com/citations?user=pjEvug0AAAAJ)<sup>2</sup>, [**Zhiliang Wu**]()<sup>3</sup>, and [**Dan Guo**](https://scholar.google.com/citations?user=DsEONuMAAAAJ)<sup>2,4,5</sup>  
-</div>
+[**Jihao Gu**](https://scholar.google.com/citations?hl=en&user=fSWwq3AAAAAJ)<sup>1</sup>, [**Fei Wang**](https://scholar.google.com/citations?user=sdqv6pQAAAAJ)<sup>2,5</sup>, [**Kun Li**](https://scholar.google.com/citations?user=UQ_bInoAAAAJ)<sup>3 :email: </sup>, [**Yanyan Wei**](https://scholar.google.com/citations?user=pjEvug0AAAAJ)<sup>2</sup>, [**Zhiliang Wu**]()<sup>3</sup>, and [**Dan Guo**](https://scholar.google.com/citations?user=DsEONuMAAAAJ)<sup>2,4,5</sup>  
 
-<sup>1</sup>University College London (UCL), Gower Street, London, WC1E 6BT, UK  
+<sup>1</sup> University College London (UCL), Gower Street, London, WC1E 6BT, UK  
 <sup>2</sup>School of Computer Science and Information Engineering, School of Artificial Intelligence, Hefei University of Technology (HFUT)  
 <sup>3</sup>ReLER, CCAI, Zhejiang University, China  
 <sup>4</sup>Key Laboratory of Knowledge Engineering with Big Data (HFUT), Ministry of Education  
 <sup>5</sup>Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, China  
+
+:trophy:**Champion Solution for [Micro-gesture Classification](https://www.kaggle.com/competitions/the-3rd-mi-ga-ijcai-challenge-track-1/overview) in [3rd MiGA @ IJCAI 2025](https://cv-ac.github.io/MiGA2025/)**
+
+</div>
 
 ---
 
@@ -20,12 +23,6 @@
   <a href="https://img.shields.io/github/issues-raw/momiji-bit/MM-Gesture?color=%23FF9600" target="_blank"><img src="https://img.shields.io/github/issues-raw/momiji-bit/MM-Gesture?color=%23FF9600"></a>
   <a href="https://img.shields.io/github/stars/momiji-bit/MM-Gesture?style=flat&color=yellow" target="_blank"><img src="https://img.shields.io/github/stars/momiji-bit/MM-Gesture?style=flat&color=yellow"></a>
 </p>
-
-The solution of `gkdx2` Team for `Track 1` of the [The 3rd Workshop & Challenge on Micro-gesture Analysis for Hidden Emotion Understanding (MiGA)](https://cv-ac.github.io/MiGA2025/). 
-
-Our team is named `HFUT-VUT`. The primary contacts are Dr. Kun Li (kunli.hfut@gmail.com) and Mr. Jihao Gu (geogu2000@outlook.com). 
-
-We will provide the full list of authors in the technical report.
 
 🎉 The generated `ensemble/prediction.zip`  represents our **final submission**, achieving an impressive 🏆 **Top-1 Accuracy of 73.213%**! 🌟
 
@@ -291,8 +288,36 @@ We provide a script for combining **six modalities** (*Joint, Limb, RGB, Taylor,
 
 ## 🙏 5. Acknowledgement
 
-This code began with [PYSKL](https://github.com/kennymckormick/pyskl/tree/main) and [mmaction2](https://github.com/open-mmlab/mmaction2) toolbox. We thank the developers for doing most of the heavy-lifting.
+This code began with [PYSKL](https://github.com/kennymckormick/pyskl/tree/main) and [mmaction2](https://github.com/open-mmlab/mmaction2) toolbox. We thank the developers for doing most of the heavy-lifting. 
 
+If you found this code useful, please consider citing:
+
+```
+@article{gu2025mm,
+  title={MM-Gesture: Towards Precise Micro-Gesture Recognition through Multimodal Fusion},
+  author={Gu, Jihao and Wang, Fei and Li, Kun and Wei, Yanyan and Wu, Zhiliang and Guo, Dan},
+  journal={arXiv preprint arXiv:2507.08344},
+  year={2025}
+}
+
+@article{guo2024benchmarking,
+  title={Benchmarking Micro-action Recognition: Dataset, Methods, and Applications},
+  author={Guo, Dan and Li, Kun and Hu, Bin and Zhang, Yan and Wang, Meng},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2024},
+  volume={34},
+  number={7},
+  pages={6238-6252}
+}
+
+@misc{2020mmaction2,
+    title={OpenMMLab's Next Generation Video Understanding Toolbox and Benchmark},
+    author={MMAction2 Contributors},
+    howpublished = {\url{https://github.com/open-mmlab/mmaction2}},
+    year={2020}
+}
+ 
+```
 
 
 ## 📧 6. Contact
