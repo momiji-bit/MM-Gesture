@@ -1,9 +1,23 @@
-# MM-Gesture: Towards Precise Micro-Gesture Recognition through Multimodal Fusion
+<div align="center">
+<h1>MM-Gesture: Towards Precise Micro-Gesture Recognition through Multimodal Fusion</h1>
+
+[**Jihao Gu**](https://scholar.google.com/citations?hl=en&user=fSWwq3AAAAAJ)<sup>1</sup>, [**Fei Wang**](https://scholar.google.com/citations?user=sdqv6pQAAAAJ)<sup>2,5</sup>, [**Kun Li**](https://scholar.google.com/citations?user=UQ_bInoAAAAJ)<sup>3,\*</sup>, [**Yanyan Wei**](https://scholar.google.com/citations?user=pjEvug0AAAAJ)<sup>2</sup>, [**Zhiliang Wu**]()<sup>3</sup>, and [**Dan Guo**](https://scholar.google.com/citations?user=DsEONuMAAAAJ)<sup>2,4,5</sup>  
+
+<sup>1</sup>University College London (UCL), Gower Street, London, WC1E 6BT, UK  
+<sup>2</sup>School of Computer Science and Information Engineering, School of Artificial Intelligence, Hefei University of Technology (HFUT)  
+<sup>3</sup>ReLER, CCAI, Zhejiang University, China  
+<sup>4</sup>Key Laboratory of Knowledge Engineering with Big Data (HFUT), Ministry of Education  
+<sup>5</sup>Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, China  
+
+---
 
 <p align="center">
   <a href="https://arxiv.org/abs/2507.08344" target="_blank"><img src="https://img.shields.io/badge/arXiv-2507.08344-red?logo=arxiv"></a>
   <a href="https://huggingface.co/datasets/Geo2425/iMiGUE_SRTFD" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-orange"></a>
   <a href="https://drive.google.com/drive/folders/1roxllRgFxS6Iz6osShYij5G8miu924DL?usp=drive_link" target="_blank"><img src="https://img.shields.io/badge/Google%20Drive-Model-blue?logo=google-drive"></a>
+  <a href="https://visitor-badge.laobi.icu/badge?page_id=momiji-bit.MM-Gesture&left_color=green&right_color=red" target="_blank"><img src="https://visitor-badge.laobi.icu/badge?page_id=momiji-bit.MM-Gesture&left_color=green&right_color=red"></a>
+  <a href="https://img.shields.io/github/issues-raw/momiji-bit/MM-Gesture?color=%23FF9600" target="_blank"><img src="https://img.shields.io/github/issues-raw/momiji-bit/MM-Gesture?color=%23FF9600"></a>
+  <a href="https://img.shields.io/github/stars/momiji-bit/MM-Gesture?style=flat&color=yellow" target="_blank"><img src="https://img.shields.io/github/stars/momiji-bit/MM-Gesture?style=flat&color=yellow"></a>
 </p>
 
 The solution of `gkdx2` Team for `Track 1` of the [The 3rd Workshop & Challenge on Micro-gesture Analysis for Hidden Emotion Understanding (MiGA)](https://cv-ac.github.io/MiGA2025/). 
