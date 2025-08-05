@@ -2,6 +2,7 @@
 <h1>MM-Gesture: Towards Precise Micro-Gesture Recognition through Multimodal Fusion</h1>
 
 [**Jihao Gu**](https://scholar.google.com/citations?hl=en&user=fSWwq3AAAAAJ)<sup>1</sup>, [**Fei Wang**](https://scholar.google.com/citations?user=sdqv6pQAAAAJ)<sup>2,5</sup>, [**Kun Li**](https://scholar.google.com/citations?user=UQ_bInoAAAAJ)<sup>3,\*</sup>, [**Yanyan Wei**](https://scholar.google.com/citations?user=pjEvug0AAAAJ)<sup>2</sup>, [**Zhiliang Wu**]()<sup>3</sup>, and [**Dan Guo**](https://scholar.google.com/citations?user=DsEONuMAAAAJ)<sup>2,4,5</sup>  
+</div>
 
 <sup>1</sup>University College London (UCL), Gower Street, London, WC1E 6BT, UK  
 <sup>2</sup>School of Computer Science and Information Engineering, School of Artificial Intelligence, Hefei University of Technology (HFUT)  
