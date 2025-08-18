@@ -67,20 +67,10 @@ cd MM-Gesture
 
 
 ```bash
-# If you are in China, please use hfd to accelerate the download.
-cd dataset
-sudo apt update
-sudo apt install aria2
-
-wget https://hf-mirror.com/hfd/hfd.sh
-chmod a+x hfd.sh
-export HF_ENDPOINT=https://hf-mirror.com
-./hfd.sh Geo2425/iMiGUE_SRTFD --dataset
-
-# If you are not in China, just download the pre-processed dataset.
 cd dataset 
 pip install huggingface_hub
 huggingface-cli login
+# export HF_ENDPOINT=https://hf-mirror.com  # if you live in China
 mkdir -p ./iMiGUE_SRTFD
 huggingface-cli download Geo2425/iMiGUE_SRTFD --repo-type dataset --local-dir ./iMiGUE_SRTFD
 ```
