@@ -70,7 +70,7 @@ cd MM-Gesture
 cd dataset 
 pip install huggingface_hub
 huggingface-cli login
-# export HF_ENDPOINT=https://hf-mirror.com  # if you live in China
+# export HF_ENDPOINT=https://hf-mirror.com  # (Optional) For users in China, enable the mirror
 mkdir -p ./iMiGUE_SRTFD
 huggingface-cli download Geo2425/iMiGUE_SRTFD --repo-type dataset --local-dir ./iMiGUE_SRTFD
 ```
