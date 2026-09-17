@@ -18,7 +18,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2507.08344" target="_blank"><img src="https://img.shields.io/badge/arXiv-2507.08344-red?logo=arxiv"></a>
   <a href="https://huggingface.co/datasets/Geo2425/iMiGUE_SRTFD" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-orange"></a>
-  <a href="https://drive.google.com/drive/folders/1roxllRgFxS6Iz6osShYij5G8miu924DL?usp=drive_link" target="_blank"><img src="https://img.shields.io/badge/Google%20Drive-Model-blue?logo=google-drive"></a>
+  <a href="https://huggingface.co/Geo2425/MM-Gesture" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-orange"></a>
   <a href="https://visitor-badge.laobi.icu/badge?page_id=momiji-bit.MM-Gesture&left_color=green&right_color=red" target="_blank"><img src="https://visitor-badge.laobi.icu/badge?page_id=momiji-bit.MM-Gesture&left_color=green&right_color=red"></a>
   <a href="https://img.shields.io/github/issues-raw/momiji-bit/MM-Gesture?color=%23FF9600" target="_blank"><img src="https://img.shields.io/github/issues-raw/momiji-bit/MM-Gesture?color=%23FF9600"></a>
   <a href="https://img.shields.io/github/stars/momiji-bit/MM-Gesture?style=flat&color=yellow" target="_blank"><img src="https://img.shields.io/github/stars/momiji-bit/MM-Gesture?style=flat&color=yellow"></a>
